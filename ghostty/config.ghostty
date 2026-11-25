@@ -1,0 +1,68 @@
+# ╭──────────────────────────────────────────────╮
+# │   Ghostty — "Frosted Night" by Mr. Zero      │
+# ╰──────────────────────────────────────────────╯
+# Reload anytime: Ctrl + Shift + ,
+
+# ── Glass / Blur ────────────────────────────────
+background-opacity = 0.78
+background-blur = 40
+unfocused-split-opacity = 0.85
+
+# ── Font ────────────────────────────────────────
+# (agar ye font installed nahi hai to Ghostty default pe fallback karega)
+font-family = JetBrainsMono Nerd Font
+font-size = 12
+adjust-cell-height = 12%
+font-feature = calt
+font-feature = liga
+
+# ── Window ──────────────────────────────────────
+window-padding-x = 14
+window-padding-y = 10
+window-padding-balance = true
+window-theme = ghostty
+gtk-titlebar-style = tabs
+window-width = 110
+window-height = 30
+
+# ── Cursor ──────────────────────────────────────
+cursor-style = bar
+cursor-style-blink = true
+cursor-opacity = 0.9
+
+# ── Quality of life ─────────────────────────────
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+confirm-close-surface = false
+scrollback-limit = 10000000
+
+# ── Wallpaper colors (pywal) ────────────────────
+# "?" = optional: file na ho to error nahi aayega.
+# Ye file neeche ke fallback colors ko override karti hai.
+config-file = ?/home/mr-zero/.cache/wal/ghostty-colors
+
+# ── Fallback colors: Catppuccin-Mocha style ─────
+# (sirf tab dikhenge jab pywal ki file na mile)
+background = #11111b
+foreground = #cdd6f4
+cursor-color = #f5c2e7
+cursor-text = #11111b
+selection-background = #45475a
+selection-foreground = #f5e0dc
+
+palette = 0=#45475a
+palette = 1=#f38ba8
+palette = 2=#a6e3a1
+palette = 3=#f9e2af
+palette = 4=#89b4fa
+palette = 5=#f5c2e7
+palette = 6=#94e2d5
+palette = 7=#bac2de
+palette = 8=#585b70
+palette = 9=#f38ba8
+palette = 10=#a6e3a1
+palette = 11=#f9e2af
+palette = 12=#89b4fa
+palette = 13=#f5c2e7
+palette = 14=#94e2d5
+palette = 15=#a6adc8
